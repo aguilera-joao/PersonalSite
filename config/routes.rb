@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   root 'page#home'
 
   get 'page/home'
-  get 'newsletter/new'
+  get 'newsletters/new'
 
   resources :newsletters
 
