@@ -1,0 +1,168 @@
+/* navigation bar */
+nav {
+  width: 100%;
+  height: 60px; 
+  position: fixed; 
+  top: 0;
+  background:#73E6B8;
+  z-index: 20;
+}
+
+nav ul {
+  padding: 20px;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+nav ul li a {
+  padding: 10px 0;
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+nav ul li a:hover {
+  color: #34495E;
+}
+
+/* end navigation bar */
+
+div {
+    
+    display: block;
+}
+
+#mainImage, #secondImage, #thirdImage, #fourthImage, #fithImage, body, html {
+    
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    
+    height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    box-sizing: content-box;
+    position: relative;
+}
+
+
+
+#myfooter {
+    
+    height: 35%;
+}
+
+/* site home */
+
+
+#mainImage  {
+    
+    background: #5d02d7;
+}
+
+.container > .myText {
+      
+    text-align: left;
+    line-height: 22px;
+    letter-spacing: 0.2em;
+    font-weight: 300;
+    word-spacing: .4em;
+    overflow: scroll;
+    padding: 5px;;
+    -webkit-columns: 100px 2; /* Chrome, Safari, Opera */
+    -moz-columns: 100px 2; /* Firefox */
+    columns: 150px 2; /*default */
+    
+    height:100%;
+    width: 99%;
+    font-size: 90%;
+    
+}
+
+.myText p {
+
+    /*get rid of white space */
+    margin-top: 0;
+ 
+}
+
+#secondImage {
+    
+    background: #b0e0e6;
+}
+
+.wordContent {
+    
+  
+    
+    width: 50%;
+    bottom: 0;
+    height: 50%;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    font-size: 3.8em;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    right: 0;
+    color: white;
+    background:#FF4791;
+    border: 0;
+    top: 0;
+}
+
+#secondImage .wordContent p {
+    
+    margin: 0 0 10px;
+    
+
+}
+
+.center {
+    
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 50%;
+}
+
+.center .myPcenter {
+
+    text-align: center;
+    font-size: 70px;
+    font-weight: 400;
+    color: #ffffff;
+
+}
+
+#thirdImage {
+    
+    background: #d3ffce;
+}
+
+#fourthImage{
+    
+    background: #ffc0cb;
+}
+
+#fithImage {
+    
+     background: #d3ffce;
+}
+    
+    
+    
