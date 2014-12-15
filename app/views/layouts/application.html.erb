@@ -12,7 +12,7 @@
   <ul>
     <li><%= link_to 'Home', page_home_path %> </li>
     <li><%= link_to 'About', "/page/home#thirdImage" %></li>
-    <li> <%= link_to('Newsletter', "/newsletters/new") %></li>
+    <li> <%= link_to('Newsletter', new_newsletter_path(@newsletter)) %></li>
   </ul>
 </nav>
 
