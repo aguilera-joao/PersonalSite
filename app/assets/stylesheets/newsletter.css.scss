@@ -4,6 +4,7 @@ fieldset {
     border-radius: 20px;
     padding: 25px;
     text-align: center;
+    background-color: #F0F9FA;
     
 }
 
@@ -11,6 +12,7 @@ legend {
     
     border: 1px solid;
     border-radius: 20px;
+    background-color: #efefef;
 }
 
 .align {
@@ -22,7 +24,6 @@ legend {
     transform: translate(0, 350%);
     -ms-transform: translate(0,350%); /* IE 9 */
    /*	-webkit-transform: translate(0,350%); /* Chrome, Safari, Opera */
-  background: #FF4791;
   bottom: 0;
   height: 100px;
   left: 0;
